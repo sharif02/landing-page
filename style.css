@@ -1,0 +1,32 @@
+/* fonts family add */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    justify-content: center;
+    ;
+}
+/* top-player style */
+
+
+.player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.top-player{
+    display: flex;
+    align-items: center;
+}
+.top-player img{
+    width: 56px;
+    height: 58px;
+    padding-left: 10px;
+
+}

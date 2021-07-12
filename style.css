@@ -12,30 +12,33 @@ main{
     ;
 }
 .container{
-    display: flex;
-    justify-content: center;
+    background-color: #FFFFFF;
+    width: 870px;
+    padding:30;
+    
+
 }
 /* top-player style */
-
+.player-title{
+    color: #562EFF;
+}
 .players{
     display: grid;
     align-items: center;
     grid-template-columns: repeat(3,1fr);
+    /* grid-row-gap: 30px; */
+
 }
 .player{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    width: 870px;
-    height: 570px;
-    background-color: #FFFFFF;
-    
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
 }
-
-
-
-.top-player img{
+.player img{
     width: 56px;
     height: 58px;
-    padding-left: 10px;
-
+}
+.player-name{
+    margin-left :20px;
 }

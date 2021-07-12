@@ -11,19 +11,28 @@ main{
     justify-content: center;
     ;
 }
+.container{
+    display: flex;
+    justify-content: center;
+}
 /* top-player style */
 
-
+.players{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+}
 .player{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    width: 870px;
+    height: 570px;
+    background-color: #FFFFFF;
     
 }
 
-.top-player{
-    display: flex;
-    align-items: center;
-}
+
+
 .top-player img{
     width: 56px;
     height: 58px;

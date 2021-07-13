@@ -75,3 +75,18 @@ main{
 .span-style{
     color: burlywood;
 }
+/* courses start */ 
+.courses{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.course{
+    margin: 20px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.filed{
+    color: #FFC014;
+}
